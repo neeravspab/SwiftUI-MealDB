@@ -27,7 +27,6 @@ struct MealsView: View {
                    .padding([.bottom])
            }
            .foregroundStyle(Color(.label))
-           
            .frame(width: 170)
            .frame(height: 210)
            .background(Color(.systemBackground))
