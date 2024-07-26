@@ -9,7 +9,7 @@ import SwiftUI
 
 struct MealsListView: View {
     
-    @ObservedObject var mealsListViewModel = MealsListViewModel(request: HTTPRequest())
+    @ObservedObject private var mealsListViewModel = MealsListViewModel(request: HTTPRequest())
     
     var body: some View {
         
